@@ -1,0 +1,22 @@
+.app:hover .pulsoid-connection-status__icon {
+  opacity: 1;
+}
+
+.pulsoid-connection-status__icon {
+  font-size: 3rem;
+  transition: opacity 0.3s;
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+.pulsoid-connection-status__icon--not-connected {
+  color: white;
+}
+.pulsoid-connection-status__icon--connected {
+  opacity: 0;
+  color: #88ff88;
+}
+.pulsoid-connection-status__icon--failed {
+  color: red;
+}

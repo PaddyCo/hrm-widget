@@ -1,0 +1,10 @@
+.heart-beat__icon {
+  font-size: 10rem;
+  margin-bottom: 1rem;
+  transform-origin: center;
+  position: absolute;
+  top: -40%;
+  margin: 0 auto;
+  color: #494949;
+  z-index: -10;
+}
